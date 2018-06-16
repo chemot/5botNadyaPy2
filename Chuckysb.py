@@ -798,7 +798,7 @@ def bot(op):
                  if wait["detectMention2"] == True:          
                     contact = nadya.getContact(msg.from_)
                     cName = contact.displayName
-                    balas = ["Sekali lagi nge tag gw sumpahin jomblo seumur hidup!","Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Woii " + cName + " Jangan Ngetag, Riibut!"]
+                    balas = ["Yupz","Oit" + cName + " Hadir"]
                     ret_ = random.choice(balas)
                     name = re.findall(r'@(\w+)', msg.text)
                     mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -809,8 +809,8 @@ def bot(op):
                                   msg.contentType = 7   
                                   msg.text = None
                                   msg.contentMetadata = {
-                                                       "STKID": "20001316",
-                                                       "STKPKGID": "1582380",
+                                                       "STKID": "15858618",
+                                                       "STKPKGID": "1411829",
                                                        "STKVER": "1" }
                                   nadya.sendMessage(msg)                                
                                   break
@@ -1541,7 +1541,7 @@ def bot(op):
 		else:md+="╠➩⛔ Auto Sider: Off\n"	
 		if wait["Simi"] == True: md+="╠➩✔️🔵 Simisimi : On\n"
 		else:md+="╠➩⛔ Simisimi: Off\n"		
-                nadya.sendText(msg.to,"╔═══「 🆂🅴🅿🆁🅸 🅱🅾🆃」═══╗\n""║        ☆ ☆ s ᴛ ᴀ ᴛ ᴜ s ☆ ☆\n""╠╦═══════════════════╝\n"+md+"╚═══   「 s  ᴛ  ᴀ  ᴛ  ᴜ  s 」   ═══╝")
+                nadya.sendText(msg.to,"╔═══「 🆂🅴🅿🆁🅸 🅱🅾🆃」═══╗\n""║          ☆ ☆   s ᴛ ᴀ ᴛ ᴜ s   ☆ ☆\n""╠╦═══════════════════╝\n"+md+"╚═══   「 s  ᴛ  ᴀ  ᴛ  ᴜ  s 」   ═══╝")
 
 
             elif msg.text in ["Gift","gift"]:
