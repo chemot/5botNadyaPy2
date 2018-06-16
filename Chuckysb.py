@@ -12,7 +12,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 nadya = LINETCR.LINE()
 #nadya.login(qr=True)
-nadya.login(token='ErivnQzKvzfzysWd2s8b.+DbyEH2a2sHyIFNvMDh16W.gP19oiy0xA82FrW59KRDWtTqvIRdpRfI8OJW++S6H34=')
+nadya.login(token='EtGc1H5yrkOA0ojdaFgd.NWNpYXFqn/ktA3uB2DqoRq.VN4EawBuPWhm9/ml/gok0HvFC9bhWzTaqjIuXlx6JNU=')
 nadya.loginResult()
 print "Nadya-Login Success\n\n=====[Sukses Login]====="
 
@@ -20,16 +20,15 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 
-selfMessage ="""
-╔═════════════════════════
-║            ☆☞ S E L F ☜☆
-╠═════════════════════════
+helpMessage ="""
+╔═══「 sᴇᴘʀɪ ʙᴏᴛ」═══╗
+╠╦══════════════
 ╠➩〘Hi〙
 ╠➩〘Me〙
 ╠➩〘Mymid〙
 ╠➩〘Mid @〙
-╠➩〘SearchID: (ID LINE)〙
-╠➩〘Checkdate (DD/MM/YY)〙
+╠➩〘SearchID:
+╠➩〘Checkdate
 ╠➩〘Kalender〙
 ╠➩〘Steal contact〙
 ╠➩〘Pp @〙
@@ -48,16 +47,6 @@ selfMessage ="""
 ╠➩〘Micadd @〙
 ╠➩〘Micdel @〙
 ╠➩〘Miclist〙
-╠═════════════════════════
-║     ༄ིৡ❍﻿ᶜʰᵉ+Sepri﻿﻿‮࿐ৡ    
-        SelfBot Versi 124V
-╚═════════════════════════
-"""
-
-botMessage ="""
-╔═════════════════════════
-║             ☆☞ B O T ☜☆
-╠═════════════════════════
 ╠➩〘Absen〙
 ╠➩〘Respon〙
 ╠➩〘Runtime〙
@@ -68,16 +57,6 @@ botMessage ="""
 ╠➩〘Myname (Text)〙
 ╠➩〘@bye〙
 ╠➩〘Bot on/off〙
-╠═════════════════════════
-║     ༄ིৡ❍﻿ᶜʰᵉ+Sepri﻿﻿‮࿐ৡ    
-        SelfBot Versi 124V
-╚═════════════════════════
-"""
-
-mediaMessage ="""
-╔═════════════════════════
-║           ☆☞ M E D I A ☜☆
-╠═════════════════════════
 ╠➩〘Gift〙
 ╠➩〘Gift1 @ s/d Gift10 @〙
 ╠➩〘Giftbycontact〙
@@ -90,10 +69,10 @@ mediaMessage ="""
 ╠➩〘/musrik Judul-Penyanyi〙
 ╠➩〘/ig UrsnameInstagram〙
 ╠➩〘Checkig UrsnameInstagram〙
-╠➩〘/apakah Text (Kerang Ajaib)〙
-╠➩〘/kapan Text (Kerang Ajaib)〙
-╠➩〘/hari Text (Kerang Ajaib)〙
-╠➩〘/berapa Text (Kerang Ajaib)〙
+╠➩〘/apakah Text〙
+╠➩〘/kapan Text〙
+╠➩〘/hari Text〙
+╠➩〘/berapa Text〙
 ╠➩〘/berapakah Text〙
 ╠➩〘Youtubelink: Judul Video〙
 ╠➩〘Youtubevideo: Judul Video〙
@@ -103,22 +82,12 @@ mediaMessage ="""
 ╠➩〘Say-en Text〙
 ╠➩〘Say-jp Text〙
 ╠➩〘Image NamaGambar〙
-╠➩〘Tr-id Text (Translate En Ke ID〙
-╠➩〘Tr-en Text (Translate ID Ke En〙
-╠➩〘Tr-th Text (Translate ID Ke Th〙
-╠➩〘Id@en Text (Translate ID Ke En〙
-╠➩〘Id@th Text (Translate ID Ke TH〙
-╠➩〘En@id Text (Translate En Ke ID〙
-╠═════════════════════════
-║     ༄ིৡ❍﻿ᶜʰᵉ+Sepri﻿﻿‮࿐ৡ    
-        SelfBot Versi 124V
-╚═════════════════════════
-"""
-
-groupMessage ="""
-╔═════════════════════════
-║           ☆☞ G R O U P ☜☆
-╠═════════════════════════
+╠➩〘Tr-id Text〙
+╠➩〘Tr-en Text〙
+╠➩〘Tr-th Text〙
+╠➩〘Id@en Text〙
+╠➩〘Id@th Text〙
+╠➩〘En@id Text〙
 ╠➩〘Welcome〙
 ╠➩〘Say welcome〙
 ╠➩〘Invite creator〙
@@ -133,7 +102,7 @@ groupMessage ="""
 ╠➩〘Ginfo〙
 ╠➩〘Gurl〙
 ╠➩〘List group〙
-╠➩〘Pict group: (NamaGroup)〙
+╠➩〘Pict group:〙
 ╠➩〘Spam: (Text)〙
 ╠➩〘Add all〙
 ╠➩〘Kick: (Mid)〙
@@ -142,17 +111,6 @@ groupMessage ="""
 ╠➩〘Memlist〙
 ╠➩〘Getgroup image〙
 ╠➩〘Urlgroup Image〙
-╠═════════════════════════
-║     ༄ིৡ❍﻿ᶜʰᵉ+Sepri﻿﻿‮࿐ৡ    
-        SelfBot Versi 124V
-╚═════════════════════════
-"""
-tjia="u9f09cfcb17d037e2936b751bd9d40ead"
-
-setMessage ="""
-╔═════════════════════════
-║              ☆☞ S E T ☜☆
-╠═════════════════════════
 ╠➩〘Sambutan on/off〙
 ╠➩〘Mimic on/off〙
 ╠➩〘Url on/off〙
@@ -161,35 +119,15 @@ setMessage ="""
 ╠➩〘Contact on/off〙
 ╠➩〘Sticker on〙
 ╠➩〘Simisimi on/off〙
-╠═════════════════════════
-║     ༄ིৡ❍﻿ᶜʰᵉ+Sepri﻿﻿‮࿐ৡ    
-        SelfBot Versi 124V
-╚═════════════════════════
-"""
-
-creatorMessage ="""
-╔═════════════════════════
-║         ☆☞ C R E A T O R ☜☆
-╠═════════════════════════
 ╠➩〘Crash〙
 ╠➩〘Kickall〙
 ╠➩〘Bc: (Text)〙
-╠➩〘Join group: (NamaGroup〙
-╠➩〘Leave group: (NamaGroup〙
+╠➩〘Join group:〙
+╠➩〘Leave group:〙
 ╠➩〘Leave all group〙
 ╠➩〘Tag on/off〙
 ╠➩〘Bot restart〙
 ╠➩〘Turn off〙
-╠═════════════════════════
-║     ༄ིৡ❍﻿ᶜʰᵉ+Sepri﻿﻿‮࿐ৡ    
-        SelfBot Versi 124V
-╚═════════════════════════
-"""
-
-adminMessage ="""
-╔═════════════════════════
-║            ☆☞ A D M I N ☜☆
-╠═════════════════════════
 ╠➩〘Allprotect on/off〙
 ╠➩〘Ban〙
 ╠➩〘Unban〙
@@ -199,7 +137,7 @@ adminMessage ="""
 ╠➩〘Clear ban〙
 ╠➩〘Kill〙
 ╠➩〘Kick @〙
-╠➩〘Set member: (Jumblah)〙
+╠➩〘Set member: (Jumlah)〙
 ╠➩〘Ban group: (NamaGroup〙
 ╠➩〘Del ban: (NamaGroup〙
 ╠➩〘List ban〙
@@ -221,16 +159,6 @@ adminMessage ="""
 ╠➩〘Respon2 on/off〙
 ╠➩〘Respon3 on/off〙
 ╠➩〘Responkick on/off〙
-╠═════════════════════════
-║     ༄ིৡ❍﻿ᶜʰᵉ+Sepri﻿﻿‮࿐ৡ    
-        SelfBot Versi 124V
-╚═════════════════════════
-"""
-
-helpMessage ="""
-╔═════════════════════════
-║              ☆☞ H E L P ☜☆
-╠═════════════════════════
 ╠➩〘Help self〙
 ╠➩〘Help bot〙
 ╠➩〘Help group〙
@@ -243,18 +171,17 @@ helpMessage ="""
 ╠➩〘Speed〙
 ╠➩〘Speed test〙
 ╠➩〘Status〙
-╠═════════════════════════
-║     ༄ིৡ❍﻿ᶜʰᵉ+Sepri﻿﻿‮࿐ৡ    
-        SelfBot Versi 124V
-╚═════════════════════════
+╠╩══════════════
+╚═══「sᴇᴘʀɪ ʙᴏᴛ 」═══╝
 """
+tjia="u9f09cfcb17d037e2936b751bd9d40ead"
 
 
 KAC=[nadya]
 mid = nadya.getProfile().mid
 Bots=[mid]
-Creator=["ufdd0587a1d80d9285889f9d599d1f5eb"]
-admin=["ufdd0587a1d80d9285889f9d599d1f5eb"]
+Creator=["u9f09cfcb17d037e2936b751bd9d40ead"]
+admin=["u9f09cfcb17d037e2936b751bd9d40ead"]
 
 contact = nadya.getProfile()
 backup1 = nadya.getProfile()
@@ -290,7 +217,7 @@ wait = {
     "comment":"Bot Auto Like ©By : Nadya\nContact Me : 👉 line.me/ti/p/~sepriche.",    
     "commentOn":True,
     "commentBlack":{},
-    "message":"Thx For Add Me (^_^)\nInvite Me To Your Group ヘ(^_^)ヘ",    
+    "message":"Makasih sudah add\nsalam kenal by. SepriBot",    
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
