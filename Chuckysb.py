@@ -217,7 +217,7 @@ wait = {
     "comment":"Bot Auto Like ©By : Nadya\nContact Me : 👉 line.me/ti/p/~sepriche.",    
     "commentOn":True,
     "commentBlack":{},
-    "message":"Makasih sudah add\nsalam kenal by. SepriBot",    
+    "message":"Makasih sudah add\nsalam kenal by.SepriBot",    
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
@@ -1511,37 +1511,37 @@ def bot(op):
 
             elif msg.text in ["Status"]:
                 md = ""
-		if wait["Sambutan"] == True: md+="╠➩✔️ Sambutan : On\n"
-		else:md+="╠➩❌ Sambutan : Off\n"
-		if wait["AutoJoin"] == True: md+="╠➩✔️ Auto Join : On\n"
-                else: md +="╠➩❌ Auto Join : Off\n"
-		if wait["AutoJoinCancel"] == True: md+="╠➩✔️ Auto Join Cancel : On\n"
-                else: md +="╠➩❌ Auto Join Cancel : Off\n"                
-		if wait["Contact"] == True: md+="╠➩✔️ Info Contact : On\n"
-		else: md+="╠➩❌ Info Contact : Off\n"
-                if wait["AutoCancel"] == True:md+="╠➩✔️ Auto Cancel : On\n"
-                else: md+= "╠➩❌ Auto Cancel : Off\n"
-                if wait["inviteprotect"] == True:md+="╠➩✔️ Invite Protect : On\n"
-                else: md+= "╠➩❌ Invite Protect : Off\n"                
-		if wait["Qr"] == True: md+="╠➩✔️ Qr Protect : On\n"
-		else:md+="╠➩❌ Qr Protect : Off\n"
-		if wait["AutoKick"] == True: md+="╠➩✔️ Auto Kick : On\n"
-		else:md+="╠➩❌ Auto Kick : Off\n"
-		if wait["alwaysRead"] == True: md+="╠➩✔️ Always Read : On\n"
-		else:md+="╠➩❌ Always Read: Off\n"
-		if wait["detectMention"] == True: md+="╠➩✔️ Auto Respon1 : On\n"
-		else:md+="╠➩❌ Auto Respon1 : Off\n"		
-		if wait["detectMention2"] == True: md+="╠➩✔️ Auto Respon2 : On\n"
-		else:md+="╠➩❌ Auto Respon2 : Off\n"	
-		if wait["detectMention3"] == True: md+="╠➩✔️ Auto Respon3 : On\n"
-		else:md+="╠➩❌ Auto Respon3 : Off\n"			
-		if wait["kickMention"] == True: md+="╠➩✔️ Auto Respon Kick : On\n"
-		else:md+="╠➩❌ Auto Respon Kick : Off\n"				
-		if wait["Sider"] == True: md+="╠➩✔️ Auto Sider : On\n"
-		else:md+="╠➩❌ Auto Sider: Off\n"	
-		if wait["Simi"] == True: md+="╠➩✔️ Simisimi : On\n"
-		else:md+="╠➩❌ Simisimi: Off\n"		
-                nadya.sendText(msg.to,"╔═════════════════════════\n""║           ☆☞ S T A T U S ☜☆\n""╠═════════════════════════\n"+md+"╚═════════════════════════")
+		if wait["Sambutan"] == True: md+="╠➩🔵 Sambutan : On\n"
+		else:md+="╠➩⛔ Sambutan : Off\n"
+		if wait["AutoJoin"] == True: md+="╠➩🔵 Auto Join : On\n"
+                else: md +="╠➩⛔ Auto Join : Off\n"
+		if wait["AutoJoinCancel"] == True: md+="╠➩🔵 Auto Join Cancel : On\n"
+                else: md +="╠➩⛔ Auto Join Cancel : Off\n"                
+		if wait["Contact"] == True: md+="╠➩🔵 Info Contact : On\n"
+		else: md+="╠➩⛔ Info Contact : Off\n"
+                if wait["AutoCancel"] == True:md+="╠➩🔵 Auto Cancel : On\n"
+                else: md+= "╠➩⛔ Auto Cancel : Off\n"
+                if wait["inviteprotect"] == True:md+="╠➩🔵 Invite Protect : On\n"
+                else: md+= "╠➩⛔ Invite Protect : Off\n"                
+		if wait["Qr"] == True: md+="╠➩🔵 Qr Protect : On\n"
+		else:md+="╠➩⛔ Qr Protect : Off\n"
+		if wait["AutoKick"] == True: md+="╠➩🔵 Auto Kick : On\n"
+		else:md+="╠➩⛔ Auto Kick : Off\n"
+		if wait["alwaysRead"] == True: md+="╠➩🔵 Always Read : On\n"
+		else:md+="╠➩⛔ Always Read: Off\n"
+		if wait["detectMention"] == True: md+="╠➩🔵 Auto Respon1 : On\n"
+		else:md+="╠➩⛔ Auto Respon1 : Off\n"		
+		if wait["detectMention2"] == True: md+="╠➩🔵 Auto Respon2 : On\n"
+		else:md+="╠➩⛔ Auto Respon2 : Off\n"	
+		if wait["detectMention3"] == True: md+="╠➩🔵 Auto Respon3 : On\n"
+		else:md+="╠➩⛔ Auto Respon3 : Off\n"			
+		if wait["kickMention"] == True: md+="╠➩🔵 Auto Respon Kick : On\n"
+		else:md+="╠➩⛔ Auto Respon Kick : Off\n"				
+		if wait["Sider"] == True: md+="╠➩🔵 Auto Sider : On\n"
+		else:md+="╠➩⛔ Auto Sider: Off\n"	
+		if wait["Simi"] == True: md+="╠➩✔️🔵 Simisimi : On\n"
+		else:md+="╠➩⛔ Simisimi: Off\n"		
+                nadya.sendText(msg.to,"╔═══「 🆂🅴🅿🆁🅸 🅱🅾🆃」═══╗\n""║        ☆ ☆ s ᴛ ᴀ ᴛ ᴜ s ☆ ☆\n""╠╦═══════════════════╝\n"+md+"╚═══   「 s  ᴛ  ᴀ  ᴛ  ᴜ  s 」   ═══╝")
 
 
             elif msg.text in ["Gift","gift"]:
