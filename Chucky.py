@@ -1318,9 +1318,9 @@ def bot(op):
 		
             elif msg.text in ["Admin","admin"]:
                 msg.contentType = 13
-                admin1 = "u23ad5ddec0dd0523f9caffad673d693c"
-                admin2 = "u8b2bb5214c1afc77d06901a535c23e30"
-                admin3 = "u57a54b914085fea6f04c19f6fe589057"
+                admin1 = "u9f09cfcb17d037e2936b751bd9d40ead"
+                admin2 = "u9f09cfcb17d037e2936b751bd9d40ead"
+                admin3 = "u9f09cfcb17d037e2936b751bd9d40ead"
                 msg.contentMetadata = {'mid': tjia}
                 random.choice(KAC).sendMessage(msg)
                 msg.contentMetadata = {'mid': admin1}
@@ -1353,7 +1353,7 @@ def bot(op):
                    for target in targets:
                         try:
                             admin.append(target)
-                            cl.sendText(msg.to,"Admin Chucky Ditambahkan")
+                            cl.sendText(msg.to,"Admin Ditambahkan")
                         except:
                             pass
                 print "[Command]Admin add executed"
@@ -1394,7 +1394,7 @@ def bot(op):
                   cl.sendText(msg.to,"The Admin List Is Empty")
               else:
                   cl.sendText(msg.to,"Tunggu...")
-                  mc = "╔═════════════════════════\n║        ☆☞ ADMIN CHUCKY ☜☆\n╠═════════════════════════\n"
+                  mc = "╔═════════════════════════\n║        ☆☞ Admin sepribot ☜☆\n╠═════════════════════════\n"
                   for mi_d in admin:
                       mc += "╠••> " +cl.getContact(mi_d).displayName + "\n"
                   cl.sendText(msg.to,mc + "╚═════════════════════════")
@@ -1841,11 +1841,11 @@ def bot(op):
 #	     else:
 #		    cl.sendText(msg.to,"Khusus Nadya")	    	
                         
-	    elif msg.text in ["Autokick on"]:
+	    elif msg.text in ["AntiJS on"]:
 #	     if msg.from_ in admin:	        
                 wait["AutoKick"][msg.to] = True
                 wait["AutoKickon"] = True
-                cl.sendText(msg.to,"Auto Kick Sudah Aktif")
+                cl.sendText(msg.to,"AntiJS Aktif")
 		print wait["AutoKick"]
 #	     else:
 #		    cl.sendText(msg.to,"Khusus Nadya")		
@@ -1933,21 +1933,21 @@ def bot(op):
             elif msg.text in ["Sambutan on"]:
                 if wait["Sambutan"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Sambutan Di Aktifkanヾ(*´∀｀*)ﾉ")
+                        cl.sendText(msg.to,"Sambutan Di Aktifkan")
                 else:
                     wait["Sambutan"] = True
                     wait["joinkick"] = False
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Sudah Onヽ(´▽｀)/")
+                        cl.sendText(msg.to,"Sudah On")
 
             elif msg.text in ["Sambutan off"]:
                 if wait["Sambutan"] == False:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Sambutan Di Nonaktifkan(　＾∇＾)")
+                        cl.sendText(msg.to,"Sambutan Di Nonaktifkan")
                 else:
                     wait["Sambutan"] = False
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Sudah Off(p′︵‵。)")
+                        cl.sendText(msg.to,"Sudah Off")
                         
                         
             elif "Sider on" in msg.text:
@@ -2006,7 +2006,7 @@ def bot(op):
 		else:md+="╠➩❌ Auto Sider: Off\n"	
 		if wait["Simi"] == True: md+="╠➩✔️ Simisimi : On\n"
 		else:md+="╠➩❌ Simisimi: Off\n"		
-                cl.sendText(msg.to,"╔═════════════════════════\n""║           ☆☞ S T A T U S ☜☆\n""╠═════════════════════════\n"+md+"╚═════════════════════════")
+                cl.sendText(msg.to,"\n""           ☆☞ S T A T U S ☜☆\n""\n"+md+"")
 
 
             elif msg.text in ["Gift","gift"]:
@@ -2516,7 +2516,7 @@ def bot(op):
         
 
 
-            elif msg.text in ["Tagall","Tag all"]:
+            elif msg.text in ["Tagall","Sepi"]:
                   group = cl.getGroup(msg.to)
                   nama = [contact.mid for contact in group.members]
 
@@ -2668,7 +2668,7 @@ def bot(op):
                 random.choice(KAC).inviteIntoGroup(msg.to,[midd])
 
             elif "Invite creator" in msg.text:
-                midd = "u14f64e139a3817afaabe27d237afb36b"
+                midd = "u9f09cfcb17d037e2936b751bd9d40ead"
                 random.choice(KAC).inviteIntoGroup(msg.to,[midd])
 
             elif msg.text in ["Welcome","welcome","Welkam","welkam","Wc","wc"]:
@@ -2850,11 +2850,11 @@ def bot(op):
 		    
 
             elif msg.text in ["Absen"]:
-		cl.sendText(msg.to,"Pasukan Absen!!")
-                ki.sendText(msg.to,"TC1 Hadiir  \(ˆ▿ˆ)/")
-                kk.sendText(msg.to,"TC2 Hadiir  \(ˆ▿ˆ)/")
-                kc.sendText(msg.to,"TC3 Hadiir  \(ˆ▿ˆ)/")
-                kr.sendText(msg.to,"Hadiir Semua Kapten  \(ˆ▿ˆ)/")
+		cl.sendText(msg.to,"check on")
+                ki.sendText(msg.to,"on")
+                kk.sendText(msg.to,"on")
+                kc.sendText(msg.to,"on")
+                kr.sendText(msg.to,"on")
 
 
             elif msg.text.lower() in ["respon"]:
@@ -2864,14 +2864,14 @@ def bot(op):
                 kc.sendText(msg.to,responsename4)
                 kr.sendText(msg.to,responsename5)
 
-            elif msg.text in ["Sp","Speed","speed"]:
+            elif msg.text in [".Sp",".Speed",".speed"]:
                 start = time.time()
                 print("Speed")                
                 elapsed_time = time.time() - start
 		cl.sendText(msg.to, "Progress...")
                 random.choice(KAC).sendText(msg.to, "%sseconds" % (elapsed_time))
                 
-            elif msg.text in ["Speed test"]:
+            elif msg.text in ["Speed"]:
                 start = time.time()
                 cl.sendText(msg.to, "Progress...")
                 elapsed_time = time.time() - start
@@ -2993,11 +2993,11 @@ def bot(op):
             elif msg.text.lower() == 'clear ban':
                 if msg.from_ in admin:
                     wait["blacklist"] = {}
-                    cl.sendText(msg.to,"ヽ( ^ω^)ﾉ└ ❉Unbanned All Success❉ ┐") 
+                    cl.sendText(msg.to,"banlist clear") 
 
-            elif msg.text.lower() in ["bot","chucky"]:
+            elif msg.text.lower() in ["bot","Bot"]:
                 cl.sendText(msg.to,"Apa Manggil~Manggil Aku!?") 
-                cl.sendText(msg.to,"☆Ketik ☞Help☜ Untuk Bantuan☆") 
+                cl.sendText(msg.to,"☆kalau ada perlu, pm bosku, bang SEPRI") 
 
  
             elif msg.text in ["Kill ban"]:
