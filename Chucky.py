@@ -52,7 +52,7 @@ sys.setdefaultencoding('utf-8')
 
 selfMessage ="""
 ╔═════════════════════════
-║            ☆☞ S E L F ☜☆
+║    ══✪〘 Help Message 〙✪══"
 ╠═════════════════════════
 ╠➩〘Hi〙
 ╠➩〘Me〙
@@ -75,15 +75,12 @@ selfMessage ="""
 ╠➩〘Getcontact @〙
 ╠➩〘Getvid @〙
 ╠➩〘Friendlist〙
-╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
 ╚═════════════════════════
 """
 
 botMessage ="""
 ╔═════════════════════════
-║             ☆☞ B O T ☜☆
+║   ══✪〘 Help Message 〙✪══"
 ╠═════════════════════════
 ╠➩〘Absen〙
 ╠➩〘Respon〙
@@ -97,15 +94,12 @@ botMessage ="""
 ╠➩〘/bio Text〙
 ╠➩〘@bye (Usir Kapten)〙
 ╠➩〘Bye all (Usir Semua)〙
-╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
 ╚═════════════════════════
 """
 
 mediaMessage ="""
 ╔═════════════════════════
-║           ☆☞ M E D I A ☜☆
+║   ══✪〘 Help Message 〙✪══"
 ╠═════════════════════════
 ╠➩〘Gift〙
 ╠➩〘Gift1 @ s/d Gift10 @〙
@@ -139,15 +133,12 @@ mediaMessage ="""
 ╠➩〘Id@en Text (Translate ID Ke En〙
 ╠➩〘Id@th Text (Translate ID Ke TH〙
 ╠➩〘En@id Text (Translate En Ke ID〙
-╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
 ╚═════════════════════════
 """
 
 groupMessage ="""
 ╔═════════════════════════
-║           ☆☞ G R O U P ☜☆
+║   ══✪〘 Help Message 〙✪══"
 ╠═════════════════════════
 ╠➩〘Welcome〙
 ╠➩〘Say welcome〙
@@ -173,16 +164,13 @@ groupMessage ="""
 ╠➩〘Memlist〙
 ╠➩〘Getgroup image〙
 ╠➩〘Urlgroup Image〙
-╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
 ╚═════════════════════════
 """
 tjia="u14f64e139a3817afaabe27d237afb36b"
 
 setMessage ="""
 ╔═════════════════════════
-║              ☆☞ S E T ☜☆
+║   ══✪〘 Help Message 〙✪══"
 ╠═════════════════════════
 ╠➩〘Sambutan on/off〙
 ╠➩〘Url on/off〙
@@ -190,15 +178,12 @@ setMessage ="""
 ╠➩〘Sider on/off〙
 ╠➩〘Contact on/off〙
 ╠➩〘Simisimi on/off〙
-╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
 ╚═════════════════════════
 """
 
 creatorMessage ="""
 ╔═════════════════════════
-║         ☆☞ C R E A T O R ☜☆
+║   ══✪〘 Help Message 〙✪══"
 ╠═════════════════════════
 ╠➩〘Admin add @〙
 ╠➩〘Admin remove @〙
@@ -217,15 +202,12 @@ creatorMessage ="""
 ╠➩〘Leave all group〙
 ╠➩〘Bot restart〙
 ╠➩〘Turn off〙
-╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
 ╚═════════════════════════
 """
 
 adminMessage ="""
 ╔═════════════════════════
-║            ☆☞ A D M I N ☜☆
+║   ══✪〘 Help Message 〙✪══"
 ╠═════════════════════════
 ╠➩〘Admin list〙
 ╠➩〘Ban〙
@@ -258,15 +240,12 @@ adminMessage ="""
 ╠➩〘Responkick on/off〙
 ╠➩〘Leave on/off〙
 ╠➩〘All join / (TC1/2/3/4 Join)〙
-╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
 ╚═════════════════════════
 """
 
 helpMessage ="""
 ╔═════════════════════════
-║              ☆☞ H E L P ☜☆
+║   ══✪〘 Help Message 〙✪══"
 ╠═════════════════════════
 ╠➩〘Help protect〙
 ╠➩〘Help self〙
@@ -282,15 +261,12 @@ helpMessage ="""
 ╠➩〘Speed〙
 ╠➩〘Speed test〙
 ╠➩〘Status〙
-╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
 ╚═════════════════════════
 """
 
 protectMessage ="""
 ╔═════════════════════════
-║           ☆☞ P R O T E C T ☜☆
+║   ══✪〘 Help Message 〙✪══"
 ╠═════════════════════════
 ╠➩〘Allprotect on/off〙
 ╠➩〘Autocancel on/off〙
@@ -298,9 +274,6 @@ protectMessage ="""
 ╠➩〘Autokick on/off〙
 ╠➩〘Ghost on/off〙
 ╠➩〘Invitepro on/off〙
-╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
 ╚═════════════════════════
 """
 
@@ -313,8 +286,8 @@ Cmid = kc.getProfile().mid
 Dmid = kr.getProfile().mid
 Emid = km.getProfile().mid
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid]
-Creator=["u14f64e139a3817afaabe27d237afb36b"]
-admin=["u14f64e139a3817afaabe27d237afb36b","u23ad5ddec0dd0523f9caffad673d693c","u8b2bb5214c1afc77d06901a535c23e30","u57a54b914085fea6f04c19f6fe589057","u94fb89525397a12a24df3642a7335fe7","u3a43893bf65289be03f9fd3a85dab2a7","u787d28e13bd4f94cdca5457cd90efaf4","u86304883a6fa105778bfdf13f467eaf0"]
+Creator=["u9f09cfcb17d037e2936b751bd9d40ead"]
+admin=["u9f09cfcb17d037e2936b751bd9d40ead","u6c677eb0ad0e77c46a5e35a59765d111","ud09e25c0ca9489be645b4afb00c27ee4","u91bb57b10dabe43801a6fffe8ad89340","u4dea393659914ff968fab78963a6495d","u970bb76e49958f3d9e980e3a8e6ac36a","uad49d6940b08ddae2a506e5a822c2aae","uea36cc53121bef94d1e01ccc5dd29018"]
 
 contact = cl.getProfile()
 backup1 = cl.getProfile()
@@ -355,7 +328,7 @@ responsename5 = kr.getProfile().displayName
 
 wait = {
     "LeaveRoom":True,
-    "AutoJoin":False,
+    "AutoJoin":True,
     "AutoJoinCancel":True,
     "memberscancel":30,
     "Members":1,
@@ -386,11 +359,11 @@ wait = {
     "wblacklist":False,
     "dblacklist":False,
     "Qr":{},
-    "Qron":False,
+    "Qron":True,
     "Contact":False,
     "Sambutan":True,
     "Ghost":False,
-    "inviteprotect":False,   
+    "inviteprotect":True,   
     "alwaysRead":False,    
     "Sider":{},
     "Simi":{},    
